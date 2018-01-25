@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context="com.digitalmirko.settingsscreendemo.SettingsActivity">
 
     <android.support.v7.widget.SwitchCompat
         android:id="@+id/switch_1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Option 1"/>
+        android:text="Option 1" />
 
     <android.support.v7.widget.SwitchCompat
         android:id="@+id/switch_2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Option 2"/>
+        android:text="Option 2" />
 
     <android.support.v7.widget.SwitchCompat
         android:id="@+id/switch_3"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Option 3"/>
+        android:text="Option 3" />
 
     <android.support.v7.widget.SwitchCompat
         android:id="@+id/switch_4"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Option 4"/>
+        android:text="Option 4" />
 
 
 </LinearLayout>

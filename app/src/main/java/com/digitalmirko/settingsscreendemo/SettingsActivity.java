@@ -19,7 +19,7 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        preferences = getSharedPreferences("PREFS",0);
+        preferences = getSharedPreferences("PREFS", 0);
         stateSwitch_1 = preferences.getBoolean("switch1", false);
         stateSwitch_2 = preferences.getBoolean("switch2", false);
         stateSwitch_3 = preferences.getBoolean("switch3", false);
